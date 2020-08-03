@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pens", "Pens\Pens.csproj", "{0C0DAAFB-2C8A-46D1-BEE2-8B4CE9F6B697}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pens.Core", "Pens.Core\Pens.Core.csproj", "{96B7619A-5485-4928-BB57-AF1F0C563834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pens.Data", "Pens.Data\Pens.Data.csproj", "{D88E8710-2EB8-42C0-8C8A-7BFDCCAF0796}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0C0DAAFB-2C8A-46D1-BEE2-8B4CE9F6B697}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C0DAAFB-2C8A-46D1-BEE2-8B4CE9F6B697}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C0DAAFB-2C8A-46D1-BEE2-8B4CE9F6B697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B7619A-5485-4928-BB57-AF1F0C563834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B7619A-5485-4928-BB57-AF1F0C563834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B7619A-5485-4928-BB57-AF1F0C563834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B7619A-5485-4928-BB57-AF1F0C563834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88E8710-2EB8-42C0-8C8A-7BFDCCAF0796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88E8710-2EB8-42C0-8C8A-7BFDCCAF0796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88E8710-2EB8-42C0-8C8A-7BFDCCAF0796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88E8710-2EB8-42C0-8C8A-7BFDCCAF0796}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

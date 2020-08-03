@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pens.Core\Pens.Core.csproj" />
+    <ProjectReference Include="..\Pens.Data\Pens.Data.csproj" />
+  </ItemGroup>
+
 </Project>
