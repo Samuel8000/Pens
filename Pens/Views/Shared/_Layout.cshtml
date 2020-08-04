@@ -20,13 +20,15 @@
         </nav>
     </header>
     <div class="collapse sidebar" id="sidebar">
-        <p>Main Menu</p>
-        <ul>
-            <li>test</li>
-        </ul>
+        <div class="mt-5 ml-3">
+            <p data-toggle="collapse" data-target="#settings">Settings</p>
+            <ul class="collapse" id="settings">
+                <li><a href="#">test</a></li>
+            </ul>
+        </div>
     </div>
     <div>
-        <main class="container testc">
+        <main class="container main">
             @RenderBody()
         </main>
     </div>
