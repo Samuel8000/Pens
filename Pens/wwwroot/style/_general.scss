@@ -1,0 +1,26 @@
+﻿/* General Styles */
+
+@import '_utils';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    position: relative;
+}
+
+.white-font {
+    color: white;
+}
+
+a {
+    color: $dark-gray;
+    text-decoration: none;
+
+    &:visited {
+        color: $dark-gray;
+    }
+}

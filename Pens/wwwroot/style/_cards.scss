@@ -1,0 +1,21 @@
+﻿
+.box {
+    position: relative;
+    width: 5em;
+    height: 15em;
+    margin: .5em;
+    border-radius: 1.5em;
+    box-shadow: -15px -15px 15px rgba(169, 206, 194,0.5), 15px 15px 15px rgba(0,0,0,0.05);
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &:hover {
+        text-decoration: none;
+        color: $dark-gray;
+        background: rgba(169, 206, 194,0.5);
+    }
+
+    &:visited {
+        color: $dark-gray;
+    }
+}

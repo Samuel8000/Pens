@@ -1,9 +1,37 @@
 ﻿.sidebar {
-    width: 200px;
+    width: 250px;
     height: auto;
-    background: whitesmoke;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
     z-index: 1;
     overflow-y: hidden;
+    background: $sidebar-green;
+
+    .sidebar-items {
+        color: white;
+        font-size: 1.1rem;
+        padding-bottom: 0.25em;
+        font-weight:500;
+        font-style: oblique;
+        cursor: pointer;
+    }
+}
+
+.menu-items{
+    list-style: none;
+    font-size: 0.9rem;
+
+    li {
+        a{
+            color: white;
+            text-decoration: none;
+
+            &:visited{
+                color: white;
+            }
+        }
+    }
+}
+.bg-dark-gray {
+    background: $dark-gray;
 }
